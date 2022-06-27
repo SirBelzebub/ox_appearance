@@ -35,7 +35,7 @@ server_scripts {
 }
 
 files {
-    'locales/*.json',
+    'locales/*.json', -- Use the desired language: en.json / it.json
 }
 
 provides {
